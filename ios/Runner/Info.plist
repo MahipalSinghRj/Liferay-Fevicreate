@@ -40,6 +40,24 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<key>CFBundleURLTypes</key>
+    	<array>
+    		<dict>
+    			<key>CFBundleURLSchemes</key>
+    			<array>
+    				<string>fb1907470659610573</string>
+    			</array>
+    		</dict>
+    	</array>
+    <key>FacebookAppID</key>
+    <string>1907470659610573</string>
+    <key>FacebookDisplayName</key>
+    <string>Flutter App Events Plugin</string>
+    <key>FacebookClientToken</key>
+    <string>ab3722fcb8e0b334e65c12ba968bcf0b</string>
+    <key>CADisableMinimumFrameDurationOnPhone</key>
+
+
 	<false/>
 </dict>
 </plist>
