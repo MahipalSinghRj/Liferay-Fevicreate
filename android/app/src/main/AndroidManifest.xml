@@ -1,8 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.pidilite.fevicreate">
 
-<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-<uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
    <application
         android:label="Fevicreate"
         android:icon="@mipmap/ic_launcher">
@@ -20,6 +22,7 @@
                  the Android process has started. This theme is visible to the user
                  while the Flutter UI initializes. After that, this theme continues
                  to determine the Window background behind the Flutter UI. -->
+
             <meta-data
               android:name="io.flutter.embedding.android.NormalTheme"
               android:resource="@style/NormalTheme"
@@ -50,5 +53,15 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+
+       <provider
+           android:name="com.pichillilorenzo.flutter_inappwebview.InAppWebViewFileProvider"
+           android:authorities="com.pidilite.fevicreate.flutter_inappwebview.fileprovider"
+           android:exported="false"
+           android:grantUriPermissions="true">
+           <meta-data
+               android:name="android.support.FILE_PROVIDER_PATHS"
+               android:resource="@xml/provider_paths" />
+       </provider>
     </application>
 </manifest>
