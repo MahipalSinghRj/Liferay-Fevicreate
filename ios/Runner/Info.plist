@@ -56,8 +56,8 @@
     <key>FacebookClientToken</key>
     <string>ab3722fcb8e0b334e65c12ba968bcf0b</string>
     <key>CADisableMinimumFrameDurationOnPhone</key>
-
-
 	<false/>
+	<key>io.flutter.embedded_views_preview</key>
+    <true/>
 </dict>
 </plist>

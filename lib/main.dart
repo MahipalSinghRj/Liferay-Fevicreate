@@ -1,7 +1,7 @@
 import 'dart:io' show Platform;
- import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
- import 'package:get/get.dart';
+import 'package:get/get.dart';
 import 'package:test_web_app/views/splash_screen.dart';
 
 const kAndroidUserAgent =
