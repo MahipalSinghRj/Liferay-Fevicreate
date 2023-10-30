@@ -62,5 +62,7 @@
 	<false/>
 	<key>io.flutter.embedded_views_preview</key>
     <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>We use camera to get and upload pictures</string>
 </dict>
 </plist>

@@ -69,11 +69,11 @@ SPEC CHECKSUMS:
   FBSDKLoginKit: c47a3b90920702487b10b647c63520dc2676dad9
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
   flutter_facebook_auth: edf70de5c47e5f2843f308c1c22bef9f1ec5d295
-  flutter_inappwebview: bfd58618f49dc62f2676de690fc6dcda1d6c3721
+  flutter_inappwebview: acd4fc0f012cefd09015000c241137d82f01ba62
   flutter_secure_storage: 23fc622d89d073675f2eaa109381aefbcf5a49be
   OrderedSet: aaeb196f7fef5a9edf55d89760da9176ad40b93c
-  url_launcher_ios: 839c58cdb4279282219f5e248c3321761ff3c4de
+  url_launcher_ios: 08a3dfac5fb39e8759aeb0abbd5d9480f30fc8b4
 
 PODFILE CHECKSUM: b6abc12ff718101e4dbfd3e197c6bb12ab8a8fe2
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.13.0
